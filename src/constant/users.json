@@ -1,10 +1,10 @@
 [{
   "id": 1,
-  "username": "mromke0",
+  "username": "salar",
   "email": "mromke0@deliciousdays.com",
   "isActive": false,
   "position": "Developer IV",
-  "password": "gG3)Yqi(PwwJ<$,",
+  "password": "123",
   "personalInfo": {
     "first_name": "Mack",
     "last_name": "Romke",
