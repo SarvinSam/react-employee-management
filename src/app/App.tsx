@@ -5,16 +5,16 @@ import {
 
 import Login from '../pages/login/login';
 import Dashboard from '../pages/dashboard/dashboard';
-import Users from '../pages/users/users';
-import CreateUser from '../pages/createUser/createUser';
 
-import { UserProvider } from '../context/User.Context';
-import EditUser from '../pages/editUser/editUser';
 function App() {
   const router = createBrowserRouter([
     {
       path: '/login',
       element: <Login />,
+    },
+    {
+      path: '/dashboard',
+      element: <Dashboard />,
     }
   ])
 

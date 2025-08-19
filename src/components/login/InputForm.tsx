@@ -1,4 +1,3 @@
-import React from 'react'
 
 const InputForm = ({label, onchange, type} : {label:string, onchange: (e:any) => void, type: any}) => {
   return (

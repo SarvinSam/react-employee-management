@@ -3,9 +3,9 @@ import { LuUser2 } from "react-icons/lu";
 import DashboardLayout from '../../components/layout/dashboardLayout';
 import DashboardCard from "../../components/dashboard/dashboardCard/dashboardCard";
 
-import { useUsers } from "../../context/User.Context";
+import users from '../../constant/users.json';
+
 const Dashboard = () => {
-    const {users} = useUsers()
     return (
         <DashboardLayout>
             <main className="py-10 lg:pl-72 font-semibold">
